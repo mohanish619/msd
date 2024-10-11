@@ -7,8 +7,8 @@ chmod +x /home/ubuntu/scripts/setup_nginx.sh
 apt update
 apt install -y nginx
 
-systemctl start nginx
-systemctl enable nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
 
 if systemctl status nginx | grep "active(running)"; then
     echo "Nginx is running."

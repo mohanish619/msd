@@ -3,6 +3,8 @@ os: linux
 files:
   - source: index.html
     destination: /usr/share/nginx/html/
+  - source: mohanish.jpeg
+    destination: /usr/share/nginx/html/
   - source: appspec.yml
     destination: /usr/share/nginx/html/
   - source: script/setup_nginx.sh

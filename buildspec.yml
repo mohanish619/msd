@@ -21,4 +21,5 @@ artifacts:
   files:
     - 'index.html'
     - 'appspec.yml'
+    - 'mohanish.jpeg'
     - 'scripts/**'

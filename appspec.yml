@@ -7,7 +7,7 @@ files:
     destination: /usr/share/nginx/html/
   - source: appspec.yml
     destination: /usr/share/nginx/html/
-  - source: script/setup_nginx.sh
+  - source: scripts/setup_nginx.sh
     destination: /home/ubuntu/scripts/setup_nginx.sh
 
 hooks:

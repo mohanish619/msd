@@ -5,8 +5,11 @@ chmod +x /home/ubuntu/scripts/setup_nginx.sh
 
 #install nginx
 apt update
-apt install -y nginx
+apt upgrade
+apt install -y nginx 
 
+if 
+sudo systemctl stop nginx
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
